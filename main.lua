@@ -1,6 +1,6 @@
 local old_identify
 old_identify = hookfunction(identifyexecutor, function()
-    return executorInfo.NAME, executorInfo.VERSION
+    return executorInfo.NAME
 end)
 
 local old_getname
